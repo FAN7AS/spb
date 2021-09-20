@@ -1,0 +1,94 @@
+# BEGIN Redirect
+RewriteEngine On
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] # END Redirect
+#AddType application/x-httpd-php .php
+#AddDefaultCharset utf-8
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+Redirect 301 /product/polosa-stalnaya/otsinkovannaya/ http://metallgarant-spb.loc/product/polosa-stalnaya/
+Redirect 301 /product/krug-stalnoy/ http://metallgarant-spb.loc/product/krug-stalnoy-2/krug-nerzhaveyushchiy/
+Redirect 301 /product/krug-stalnoy/krug-stalnoy/ http://metallgarant-spb.loc/product/krug-stalnoy-2/
+Redirect 301 /product/provoloka/alyuminievaya-provoloka/ http://metallgarant-spb.loc/tsvetnoy-metalloprokat/aljuminievaja-provoloka/
+Redirect 301 /product/provoloka/mednaya-provoloka/ http://metallgarant-spb.loc/tsvetnoy-metalloprokat/mednaja-provoloka/
+Redirect 301 /product/setka-rabitsa/otsinkovannaya/ http://metallgarant-spb.loc/product/stalnaya-setka-2/
+Redirect 301 /product/stalnaya-setka-2/v-rulonah/ http://metallgarant-spb.loc/product/stalnaya-setka-2/
+Redirect 301 /product/armaturnaya-setka/ http://metallgarant-spb.loc/product/stalnaya-setka-2/armaturnaya-setka/
+Redirect 301 /product/stalnaya-setka-2/setka-svarnaya-stalnaya/ http://metallgarant-spb.loc/product/stalnaya-setka-2/
+Redirect 301 /product/relsyi/zheleznodorozhnyie/ http://metallgarant-spb.loc/product/relsyi/
+Redirect 301 /product/lenta-stalnaya/ http://metallgarant-spb.loc/product/shtrips/
+Redirect 301 /product/profnastil/kupit-profnastil-v-s-pb/ http://metallgarant-spb.loc/product/profnastil/
+Redirect 301 /product/reklamnyie-konstruktsii/ http://metallgarant-spb.loc/constr/reklamnyie-konstruktsii/
+Redirect 301 /product/mostovyie-metallokonstruktsii-peshehodnyie-perehodyi-puteprovodyi/ http://metallgarant-spb.loc/constr/mostovyie-metallokonstruktsii/
+Redirect 301 /product/emkosti/ http://metallgarant-spb.loc/constr/emkosti-iz-metalla/
+Redirect 301 /product/vorota-i-zaboryi/ http://metallgarant-spb.loc/krovelnye-materialy/ustanovka-zaborov-v-spb/
+Redirect 301 /product/stolbyi-zabornyie/ http://metallgarant-spb.loc/product/profnastil/stolbiki-i-lagi/
+Redirect 301 /product/metalloizdeliya/ http://metallgarant-spb.loc/constr/metalloizdeliya/
+Redirect 301 /product/osvetitelnyie-stolbyi/ http://metallgarant-spb.loc/constr/oporyi-osveshheniya/
+Redirect 301 /product/listovoy-metalloprokat/list-aisi-304/ http://metallgarant-spb.loc/product/listovoy-metalloprokat/nerzhaveyushhiy-list/list-nerzhaveyushhiy-aisi-304/
+Redirect 301 /product/listovoy-metalloprokat/list-3-mm/ http://metallgarant-spb.loc/product/listovoy-metalloprokat/otsinkovannyiy-list/otsinkovannyiy-list-3-mm/
+Redirect 301 /product/listovoy-metalloprokat/list-2-mm/ http://metallgarant-spb.loc/product/listovoy-metalloprokat/otsinkovannyiy-list/otsinkovannyiy-list-2-mm/
+Redirect 301 /product/listovoy-metalloprokat/stalnoy-list/ http://metallgarant-spb.loc/product/listovoy-metalloprokat/
+Redirect 301 /product/ramnyie-konstruktsii/ http://metallgarant-spb.loc/constr/ramnyie-konstruktsii/
+Redirect 301 /product/molnieotvodyi-prozhektornyie-machtyi/assortiment-prozhektornyih-macht-i-molnieotvodov/ http://metallgarant-spb.loc/constr/machtyi-i-molnieotvodyi/
+Redirect 301 /product/molnieotvodyi-prozhektornyie-machtyi/ http://metallgarant-spb.loc/constr/machtyi-i-molnieotvodyi/
+Redirect 301 /product/molnieotvodyi-prozhektornyie-machtyi/molnieotvodyi-dlya-chastnyih-domov/ http://metallgarant-spb.loc/constr/machtyi-i-molnieotvodyi/molnieotvodyi-dlya-chastnyih-domov/
+Redirect 301 /product/molnieotvodyi-prozhektornyie-machtyi/montazh-prozhektornyih-macht-i-molnieotvodov/ http://metallgarant-spb.loc/constr/machtyi-i-molnieotvodyi/montazh-prozhektornyih-macht-i-molnieotvodov/
+Redirect 301 /product/metallokonstruktsii-dlya-lep/ http://metallgarant-spb.loc/constr/oporyi-lep-i-vl/
+Redirect 301 /vakansii/ http://metallgarant-spb.loc/vakansii-2/
+Redirect 301 /product/ankernyie-boltyi/ http://metallgarant-spb.loc/constr/fundamentnyie-boltyi/
+Redirect 301 /product/zakladnyie-detali/zakladnaya-detal-zd/ http://metallgarant-spb.loc/constr/zakladnyie-detali/zakladnyie-detali-mn/
+Redirect 301 /product/zakladnyie-detali/zakladnyie-detali-mn/ http://metallgarant-spb.loc/constr/zakladnyie-detali/zakladnyie-detali-mn/
+Redirect 301 /product/zakladnyie-detali-spb/ http://metallgarant-spb.loc/constr/zakladnyie-detali/
+Redirect 301 /product/nesushhie/ http://metallgarant-spb.loc/constr/metallicheskie-kolonnyi/
+Redirect 301 /product/traversyi/ http://metallgarant-spb.loc/constr/traversyi/
+Redirect 301 /constr/oporyi-truboprovodov/proizvodstvo-oporyi-truboprovodov/ http://metallgarant-spb.loc/constr/oporyi-truboprovodov/proizvodstvo-opor/
+Redirect 301 /constr/oporyi-truboprovodov/oporyi-tehnologicheskih-truboprovodov-iz-nerzhaveyushhey-stali/ http://metallgarant-spb.loc/constr/oporyi-truboprovodov/oporyi-iz-nerzhaveyushchey-stali/
+Redirect 301 /constr/oporyi-truboprovodov/vidyi-opor-pod-truboprovodyi/ http://metallgarant-spb.loc/constr/oporyi-truboprovodov/vidyi-opor/
+Redirect 301 /constr/oporyi-truboprovodov/izgotovlenie-opor-truboprovodov/ http://metallgarant-spb.loc/constr/oporyi-truboprovodov/izgotovlenie-opor/
+Redirect 301 /product/oporyi-truboprovodov/oporyi-pod-truboprovodyi-iz-stali/ http://metallgarant-spb.loc/constr/oporyi-truboprovodov/oporyi-iz-stali/
+Redirect 301 /product/oporyi-truboprovodov/proizvodstvo-oporyi-truboprovodov/ http://metallgarant-spb.loc/constr/oporyi-truboprovodov/proizvodstvo-opor/
+Redirect 301 /product/oporyi-truboprovodov/ http://metallgarant-spb.loc/constr/oporyi-truboprovodov/
+Redirect 301 /product/truba-profilnaya/truba-profilnaya-120x120/ http://metallgarant-spb.loc/product/truba-profilnaya/
+Redirect 301 /product/podkranovyie-balki/ http://metallgarant-spb.loc/constr/kran-balka/
+Redirect 301 /product/angaryi/ http://metallgarant-spb.loc/constr/angaryi/
+Redirect 301 /product/modulnyie-zdaniya-2/ http://metallgarant-spb.loc/modulnyie-zdaniya/modulnye-stroeniya/
+Redirect 301 /product/fermyi-metallicheskie/ferma-metallicheskaya-12-metrov/ http://metallgarant-spb.loc/constr/metallicheskie-fermyi/ferma-metallicheskaya-12-metrov/
+Redirect 301 /product/fermyi-metallicheskie/ http://metallgarant-spb.loc/constr/metallicheskie-fermyi/
+Redirect 301 /product/izgotovlenie-metallokonstruktsiy-v-sankt-peterburge/ http://metallgarant-spb.loc/constr/
+Redirect 301 /product/truba-profilnaya/profilnaya-truba-v-roznitsu/ http://metallgarant-spb.loc/product/truba-profilnaya/
+Redirect 301 /product/shpunt-larsena/shpunt-larsena-l5-um/ http://metallgarant-spb.loc/product/shpunt-larsena/l5-um/
+Redirect 301 /product/supermonterey/ http://metallgarant-spb.loc/krovelnye-materialy/metallocherepeca/supermonterrey/
+Redirect 301 /product/monterrey/ http://metallgarant-spb.loc/krovelnye-materialy/metallocherepeca/monterrey/
+Redirect 301 /product/kaskad/ http://metallgarant-spb.loc/krovelnye-materialy/metallocherepeca/kaskad/
+Redirect 301 /product/shpunt-larsena/shpunt-larsena-l5/ http://metallgarant-spb.loc/product/shpunt-larsena/l5/
+Redirect 301 /product/profnastil/profnastil-s8-opisanie-primenenie-tsena http://metallgarant-spb.loc/product/profnastil/profnastil-s8/
+Redirect 301 /product/profnastil/metallocherepeca/ http://metallgarant-spb.loc/krovelnye-materialy/metallocherepeca/
+Redirect 301 /product/truba-profilnaya/profilnaya-truba-30x30/ http://metallgarant-spb.loc/product/truba-profilnaya/30x30/
+Redirect 301 /product/truba-profilnaya/profilnyie-trubyi-20x20-40x20/ http://metallgarant-spb.loc/product/truba-profilnaya/profilnyie-trubyi20x20/
+Redirect 301 /metallokonstruktsii-v-lizing/ http://metallgarant-spb.loc/product/metallokonstruktsii-v-lizing-2/
+Redirect 301 /product/proizvodstvennyie-korpusa http://metallgarant-spb.loc/product/promyishlennyie-metallokonstruktsii/
+Redirect 301 /novosti/ http://metallgarant-spb.loc/category/news/
+Redirect 301 /product/frezernyie-rabotyi/frezernyie-rabotyi-po-metallu/ http://metallgarant-spb.loc/product/frezernyie-rabotyi/
+Redirect 301 /product/otsinkovanie/otsinkovanie-metallokonstruktsiy/ http://metallgarant-spb.loc/product/otsinkovanie/
+Redirect 301 /welcome0/ http://metallgarant-spb.loc/
+Redirect 301 /metallokonstruktsii-v-lizin/ http://metallgarant-spb.loc/metallokonstruktsii-v-lizing/
+Redirect 301 /metallokonstruktsii-v-lizing-2/ http://metallgarant-spb.loc/metallokonstruktsii-v-lizing/
+Redirect 301 /obshhestroy/oformlenie-nuzhnoy-dokumentatsii/ http://metallgarant-spb.loc/oformlenie-nuzhnoy-dokumentatsii/
+Redirect 301 /obshhestroy/stroitelstvo-dorog/ http://metallgarant-spb.loc/stroitelstvo-dorog/
+Redirect 301 /product/profnastil/dobornye-jelementy/vyihod-ventilyatsii/ https://metallgarant-spb.loc/product/profnastil/dobornye-jelementy/krovelnaya-ventilyaciya/
+Redirect 301 /product/profnastil/dobornye-jelementy/planka-vnutrennego-ugla/ https://metallgarant-spb.loc/product/profnastil/dobornye-jelementy/uglovye-planki/
+Redirect 301 /product/profnastil/dobornye-jelementy/pristennyiy-profil/ https://metallgarant-spb.loc/product/profnastil/dobornye-jelementy/planki-primikanya/
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#    RewriteRule \.pdf$ /load.php [L,QSA]
+#</IfModule>
